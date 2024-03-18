@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: lavender;
+    background-color: rgb(40, 50, 127);
     font-family: "Roboto", sans-serif;
     margin: 0;
     display: flex;
@@ -14,4 +14,48 @@ body {
     justify-content: center;
     height: 100vh;
     overflow: hidden;
+    padding: 20px;
+}
+
+.container { 
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 5px 5px rgba(0, 0, 0, 0.1);
+  padding: 40px 20px;
+  text-align: center;
+  max-width: 100%;
+  width: 700px;
+}
+
+h3 { 
+  margin: 0;
+  opacity: 0.5;
+  letter-spacing: 2px;
+}
+
+.joke { 
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 40px;
+  margin: 50px auto;
+  max-width: 570px;
+}
+
+.btn { 
+  background-color: #9f58e0;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 5px 5px rgba(0, 0, 0, 0.1);
+  padding: 14px 40px;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.btn:focus { 
+  outline: 0;
+}
+
+.btn:hover {
+  transform: scale(0.91);
+  transition: transform 0.5s ease;
 }
